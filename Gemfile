@@ -31,6 +31,11 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+
+  # Ruby liner
+  gem 'overcommit', '~> 0.50.0', require: false
+  gem 'rubocop-github', '~> 0.13.0', require: false
+  gem 'rubocop-rails', '~> 2.3', '>= 2.3.2', require: false
 end
 
 group :development do
